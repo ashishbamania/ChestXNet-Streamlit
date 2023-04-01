@@ -47,7 +47,7 @@ def predict_image(model, input_tensor):
 
 # Initialize the model
 model = models.densenet121()
-checkpoint_best = torch.load('checkpoint\checkpoint', map_location=torch.device('cpu'))
+checkpoint_best = torch.load('checkpoint', map_location=torch.device('cpu'))
 model = checkpoint_best['model']
 
 # Set up the Streamlit app title
