@@ -51,6 +51,8 @@ checkpoint_best = torch.load('checkpoint\checkpoint', map_location=torch.device(
 model = checkpoint_best['model']
 
 # Set up the Streamlit app title
+st.set_page_config(page_title='Radiology With AI', initial_sidebar_state = 'auto')
+
 st.title("🩺 Chest X-Ray Reported In Seconds ")
 
 subtitle = '<p style="font-family:Courier; font-size: 18px;">By Dr. Ashish Bamania</p>'
