@@ -53,9 +53,8 @@ model = checkpoint_best['model']
 # Set up the Streamlit app title
 st.set_page_config(page_title='Radiology With AI', initial_sidebar_state = 'auto')
 
-st.title("🩺 Chest X-Ray Reported In Seconds ")
-
-subtitle = '<p style="font-family:Courier; font-size: 18px;">By Dr. Ashish Bamania</p>'
+st.title("🩺 Chest X-Ray Reported In Seconds")
+subtitle = '<p style="font-size: 18px;font-weight: 800;"><a href = "https://www.linkedin.com/in/dr-ashish-bamania-821a20131">By Dr. Ashish Bamania</a> inspired by <a href="https://github.com/jrzech/reproduce-chexnet"> Dr. John Zech\'s GitHub Repository </a></p>'
 st.markdown(subtitle, unsafe_allow_html=True)
 
 st.write("""""")
