@@ -60,7 +60,7 @@ st.markdown(subtitle, unsafe_allow_html=True)
 st.write("""""")
 
 st.write("""
-This application analyzes Chest X-rays and detects various lung conditions using State-of-the-art AI technology. 
+This application analyzes abnormal Chest X-rays and detects 14 common lung conditions using State-of-the-art AI technology. 
 """)
 
 st.write("""
